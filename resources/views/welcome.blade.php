@@ -59,7 +59,7 @@
             </div>
 
             <div class="mt-12 text-center text-gray-300 text-sm">
-                <p>&copy; 2024 HRIS System. All rights reserved.</p>
+                <p>&copy; 2026 HRIS System. All rights reserved.</p>
             </div>
         </div>
     </div>

@@ -54,7 +54,14 @@ class Handler extends ExceptionHandler
     {
         // Handle CSRF token mismatch (419 error)
         if ($exception instanceof TokenMismatchException) {
-            return redirect()->route('login')->with('error', 'Your session has expired. Please login again.');
+            // Clear the session and redirect to appropriate login page
+            if ($request->is('employee/*') || $request->is('employee/login')) {
+                return redirect()->route('employee.login')
+                    ->with('error', 'Your session has expired. Please login again.');
+            }
+            
+            return redirect()->route('login')
+                ->with('error', 'Your session has expired. Please login again.');
         }
 
         return parent::render($request, $exception);

@@ -74,8 +74,8 @@
                 <div class="mt-6 pt-6 border-t border-gray-200 text-center text-sm text-gray-600">
                     <p class="font-semibold mb-2">Demo Accounts:</p>
                     <div class="space-y-1">
-                        <p>Admin: admin@hris.com / password</p>
-                        <p>HR: hr@hris.com / password</p>
+                        <p>Admin: admin@hris.com / Admin@2024</p>
+                        <p>HR: hr@hris.com / HR@2024</p>
                     </div>
                 </div>
             </div>

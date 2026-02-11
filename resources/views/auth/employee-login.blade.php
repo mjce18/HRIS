@@ -74,7 +74,7 @@
                 <div class="mt-6 pt-6 border-t border-gray-200 text-center text-sm text-gray-600">
                     <p class="font-semibold mb-2">Demo Employee Account:</p>
                     <p>Email: employee@hris.com</p>
-                    <p>Password: password</p>
+                    <p>Password: Employee@2024</p>
                 </div>
             </div>
         </div>

@@ -248,7 +248,8 @@ php artisan serve
 
 ### HR/Admin Account
 - **Email:** hr@hris.com
-- **Password:** password
+- **Password:** HR@2024
+
 
 ### Admin Account
 - **Email:** admin@hris.com
@@ -256,7 +257,7 @@ php artisan serve
 
 ### Employee Account
 - **Email:** employee@hris.com
-- **Password:** password
+- **Password:** Employee@2024
 
 ## 📁 Project Structure
 

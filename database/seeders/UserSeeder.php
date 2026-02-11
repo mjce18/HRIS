@@ -14,9 +14,10 @@ class UserSeeder extends Seeder
         $admin = User::create([
             'name' => 'Admin User',
             'email' => 'admin@hris.com',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('Admin@2024'),
             'employee_id' => 'EMP001',
             'status' => 'active',
+            'account_activated' => true,
         ]);
         $admin->assignRole('super-admin');
 
@@ -35,9 +36,10 @@ class UserSeeder extends Seeder
         $hr = User::create([
             'name' => 'HR Manager',
             'email' => 'hr@hris.com',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('HR@2024'),
             'employee_id' => 'EMP002',
             'status' => 'active',
+            'account_activated' => true,
         ]);
         $hr->assignRole('hr');
 
@@ -56,9 +58,10 @@ class UserSeeder extends Seeder
         $employee = User::create([
             'name' => 'John Doe',
             'email' => 'employee@hris.com',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('Employee@2024'),
             'employee_id' => 'EMP003',
             'status' => 'active',
+            'account_activated' => true,
         ]);
         $employee->assignRole('employee');
 
